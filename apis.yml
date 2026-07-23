@@ -1,22 +1,82 @@
 aid: aviate
 name: Aviate
-description: Aviate is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Aviate was an "intelligent homescreen" launcher for Android, built by
+  ThumbsUp Labs (founded 2011 by Paul Montoy-Wilson, William Choi, and Mark Daiss).
+  The app reorganized a phone home screen contextually — surfacing apps, contacts,
+  and information based on time, location, and activity. It raised a $1.8M seed round
+  in May 2013 from Highland Capital Partners, Andreessen Horowitz, Freestyle Capital,
+  and Draper Associates, and was acquired by Yahoo in January 2014. Yahoo discontinued
+  the Aviate launcher on March 8, 2018. The company is defunct: it never shipped a
+  public API, developer portal, or SDK, aviate.com is now a parked domain listed for
+  sale, aviate.yahoo.com redirects to downloads.yahoo.com, and the ThumbsUp Labs GitHub
+  organization has no public repositories.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aviate.png
 url: https://raw.githubusercontent.com/api-evangelist/aviate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-status-detail:
+  founded: '2011'
+  company: ThumbsUp Labs, Inc.
+  seed_round: '2013-05-10'
+  acquired_by: Yahoo
+  acquired: '2014-01-07'
+  product_discontinued: '2018-03-08'
+  api_surface: none
+  evidence:
+  - url: https://techcrunch.com/2013/05/10/market-for-apperating-systems-heats-up-as-highland-capital-andreesen-horowitz-others-put-1-8m-into-aviate-an-intelligent-homescreen-for-android/
+    note: $1.8M seed round including Andreessen Horowitz
+  - url: https://techcrunch.com/2014/01/07/yahoo-announces-that-it-has-acquired-intelligent-homescreen-startup-aviate/
+    note: Yahoo acquisition announcement
+  - url: https://www.androidpolice.com/2018/02/02/yahoo-ends-support-aviate-launcher-march-8/
+    note: Yahoo ends support for Aviate Launcher, March 8 2018
+  probes:
+  - {url: 'https://aviate.com/', status: 307, note: redirects to afternic.com domain-for-sale
+      parking}
+  - {url: 'https://aviate.yahoo.com/', status: 301, note: redirects to downloads.yahoo.com}
+  - {url: 'https://developer.aviate.com/', status: 0, note: does not resolve}
+  - {url: 'https://api.aviate.com/', status: 0, note: does not resolve}
+  - {url: 'https://www.getaviate.com/', status: 0, note: does not resolve}
+  - {url: 'https://api.github.com/users/thumbsuplabs', status: 200, note: 'org exists,
+      0 public repositories'}
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Mobile
+- Android
+- Consumer Applications
+- Contextual Computing
+- Acquired
+- Defunct
 apis: []
+common:
+- type: GitHubOrganization
+  name: ThumbsUp Labs GitHub Organization
+  url: https://github.com/ThumbsUpLabs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
