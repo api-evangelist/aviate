@@ -54,7 +54,7 @@ x-status-detail:
   - {url: 'https://www.getaviate.com/', status: 0, note: does not resolve}
   - {url: 'https://api.github.com/users/thumbsuplabs', status: 200, note: 'org exists,
       0 public repositories'}
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
