@@ -10,6 +10,17 @@ description: 'Aviate was an "intelligent homescreen" launcher for Android, built
   public API, developer portal, or SDK, aviate.com is now a parked domain listed for
   sale, aviate.yahoo.com redirects to downloads.yahoo.com, and the ThumbsUp Labs GitHub
   organization has no public repositories.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
