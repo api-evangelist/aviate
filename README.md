@@ -64,12 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aviate was an "intelligent homescreen" launcher for Android, built by ThumbsUp Labs (founded 2011 by Paul Montoy-Wilson, William Choi, and Mark Daiss). The app reorganized a phone home screen contextually — surfacing apps, contacts, and information based on time, location, and activity.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-- **Seed round:** $1.8M, May 2013 — Highland Capital Partners, Andreessen Horowitz, Freestyle Capital, Draper Associates
-- **Acquired:** Yahoo, January 2014
-- **Discontinued:** Yahoo ended support for the Aviate launcher on March 8, 2018
+Aviate was an "intelligent homescreen" launcher for Android, built by ThumbsUp Labs (founded 2011 by Paul Montoy-Wilson, William Choi, and Mark Daiss). The app reorganized a phone home screen contextually — surfacing apps, contacts, and information based on time, location, and activity. It raised a $1.8M seed round in May 2013 from Highland Capital Partners, Andreessen Horowitz, Freestyle Capital, and Draper Associates, and was acquired by Yahoo in January 2014. Yahoo discontinued the Aviate launcher on March 8, 2018. The company is defunct: it never shipped a public API, developer portal, or SDK, aviate.com is now a parked domain listed for sale, aviate.yahoo.com redirects to downloads.yahoo.com, and the ThumbsUp Labs GitHub organization has no public repositories.
 
-**Status: defunct — no API surface.** Aviate never shipped a public API, developer portal, or SDK. `aviate.com` is a parked domain listed for sale, `aviate.yahoo.com` redirects to `downloads.yahoo.com`, and the [ThumbsUp Labs GitHub organization](https://github.com/ThumbsUpLabs) has no public repositories.
+**Areas:** Company · Mobile · Android · Consumer Applications · Contextual Computing · Acquired · Defunct
 
-Backed by: a16z
+## Aviate on APIs.io (historical record)
+
+Everything profiled for Aviate is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aviate/](https://apis.io/providers/aviate/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [GitHub](https://github.com/ThumbsUpLabs)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aviate: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aviate/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
